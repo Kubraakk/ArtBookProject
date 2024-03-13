@@ -14,6 +14,8 @@
 		C9D13ECB2BA0FB9600C8760A /* ArtBookProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9D13EC92BA0FB9600C8760A /* ArtBookProject.xcdatamodeld */; };
 		C9D13ECD2BA0FB9800C8760A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9D13ECC2BA0FB9800C8760A /* Assets.xcassets */; };
 		C9D13ED02BA0FB9800C8760A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9D13ECE2BA0FB9800C8760A /* LaunchScreen.storyboard */; };
+		C9D13ED82BA0FD9600C8760A /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D13ED72BA0FD9600C8760A /* DetailsVC.swift */; };
+		C9D13EDA2BA103F300C8760A /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D13ED92BA103F300C8760A /* select.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		C9D13ECC2BA0FB9800C8760A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9D13ECF2BA0FB9800C8760A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9D13ED12BA0FB9800C8760A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9D13ED72BA0FD9600C8760A /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		C9D13ED92BA103F300C8760A /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = select.png; path = ../../../../Downloads/select.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +62,11 @@
 		C9D13EBF2BA0FB9600C8760A /* ArtBookProject */ = {
 			isa = PBXGroup;
 			children = (
+				C9D13ED92BA103F300C8760A /* select.png */,
 				C9D13EC02BA0FB9600C8760A /* AppDelegate.swift */,
 				C9D13EC22BA0FB9600C8760A /* SceneDelegate.swift */,
 				C9D13EC42BA0FB9600C8760A /* ViewController.swift */,
+				C9D13ED72BA0FD9600C8760A /* DetailsVC.swift */,
 				C9D13EC62BA0FB9600C8760A /* Main.storyboard */,
 				C9D13ECC2BA0FB9800C8760A /* Assets.xcassets */,
 				C9D13ECE2BA0FB9800C8760A /* LaunchScreen.storyboard */,
@@ -129,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9D13ED02BA0FB9800C8760A /* LaunchScreen.storyboard in Resources */,
+				C9D13EDA2BA103F300C8760A /* select.png in Resources */,
 				C9D13ECD2BA0FB9800C8760A /* Assets.xcassets in Resources */,
 				C9D13EC82BA0FB9600C8760A /* Main.storyboard in Resources */,
 			);
@@ -145,6 +152,7 @@
 				C9D13EC52BA0FB9600C8760A /* ViewController.swift in Sources */,
 				C9D13EC12BA0FB9600C8760A /* AppDelegate.swift in Sources */,
 				C9D13EC32BA0FB9600C8760A /* SceneDelegate.swift in Sources */,
+				C9D13ED82BA0FD9600C8760A /* DetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
